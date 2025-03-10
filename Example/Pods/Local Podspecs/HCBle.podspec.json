@@ -1,0 +1,22 @@
+{
+  "name": "HCBle",
+  "version": "0.1.0",
+  "summary": "This is a ios BLE SDK",
+  "description": "This is a ios BLE SDK",
+  "homepage": "https://github.com/hconnectdx/bt-sdk-ios",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "hconnectdx": "kmwdev@hconnect.co.kr"
+  },
+  "source": {
+    "git": "https://oauth2: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@github.com/hconnectdx/bt-sdk-ios.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "HCBle/Classes/**/*"
+}

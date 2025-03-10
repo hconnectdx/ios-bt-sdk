@@ -1,0 +1,16 @@
+PODS:
+  - HCBle (0.1.0)
+
+DEPENDENCIES:
+  - HCBle (from `../`)
+
+EXTERNAL SOURCES:
+  HCBle:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  HCBle: 8514e8aea43d40c07ea3746a6911b70906bafa0e
+
+PODFILE CHECKSUM: 7cbc9d10925d550905217d93ea9aee9de30f3d72
+
+COCOAPODS: 1.16.2
