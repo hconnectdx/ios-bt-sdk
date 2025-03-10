@@ -1,6 +1,6 @@
 {
   "name": "HCBle",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "summary": "This is a ios BLE SDK",
   "description": "This is a ios BLE SDK",
   "homepage": "https://github.com/hconnectdx/bt-sdk-ios",
@@ -13,13 +13,10 @@
   },
   "source": {
     "git": "https://oauth2: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@github.com/hconnectdx/bt-sdk-ios.git",
-    "tag": "0.1.3"
+    "tag": "0.1.4"
   },
   "platforms": {
     "ios": "10.0"
   },
-  "source_files": [
-    "HCBle/Classes/**/*",
-    "HCBle/PeripheralModel.swift"
-  ]
+  "source_files": "HCBle/HCBleClasses/**/*"
 }
