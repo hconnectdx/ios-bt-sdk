@@ -5,7 +5,4 @@ platform :ios, '10.0'
 target 'HCBle_Example' do
   pod 'HCBle', :path => '../'
 
-  target 'HCBle_Tests' do
-    inherit! :search_paths
-  end
 end
