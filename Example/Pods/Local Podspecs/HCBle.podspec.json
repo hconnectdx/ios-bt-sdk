@@ -3,7 +3,7 @@
   "version": "0.1.4",
   "summary": "This is a ios BLE SDK",
   "description": "This is a ios BLE SDK",
-  "homepage": "https://github.com/hconnectdx/bt-sdk-ios",
+  "homepage": "https://github.com/hconnectdx/ios-bt-sdk",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,7 +12,7 @@
     "hconnectdx": "kmwdev@hconnect.co.kr"
   },
   "source": {
-    "git": "https://oauth2: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@github.com/hconnectdx/bt-sdk-ios.git",
+    "git": "https://oauth2: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@github.com/hconnectdx/ios-bt-sdk.git",
     "tag": "0.1.4"
   },
   "platforms": {
