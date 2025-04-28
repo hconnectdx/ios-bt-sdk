@@ -1,6 +1,6 @@
 {
   "name": "HCBle",
-  "version": "0.1.4",
+  "version": "0.1.6",
   "summary": "This is a ios BLE SDK",
   "description": "This is a ios BLE SDK",
   "homepage": "https://github.com/hconnectdx/ios-bt-sdk",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://oauth2: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@github.com/hconnectdx/ios-bt-sdk.git",
-    "tag": "0.1.4"
+    "tag": "0.1.6"
   },
   "platforms": {
     "ios": "10.0"
