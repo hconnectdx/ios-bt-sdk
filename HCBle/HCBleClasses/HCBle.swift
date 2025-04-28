@@ -44,6 +44,15 @@ public class HCBle: NSObject {
         }
     }
 
+    public func stopScan() {
+        guard let centralManager = centralManager else {
+            print("Central Manager is not initialized")
+            return
+        }
+        centralManager.stopScan()
+        print("Stopped scanning for peripherals")
+    }
+
     public func connect(
         peripheral: CBPeripheral,
         onConnState: ((Bool, Error?) -> Void)? = nil,
