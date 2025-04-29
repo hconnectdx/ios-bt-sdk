@@ -26,7 +26,13 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
         super.didReceiveMemoryWarning()
     }
 
+    @IBAction func onClickStop(_ sender: UIButton) {
+        HCBle.shared.stopScan()
+    }
+
     @IBAction func onClickScan(_ sender: UIButton) {
+        scannedPeripherals.removeAll()
+        tableView.reloadData()
         HCBle.shared.scan { peripheral, advertisementData, rssi in
 
 //            guard let self = self else { return }

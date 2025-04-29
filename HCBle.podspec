@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   # 변수 설정
   token = ENV['GIT_ACCESS_TOKEN']
   name = 'HCBle'
-  version = '0.1.8'
+  version = '0.1.9'
   description = 'This is a ios BLE SDK'
   repo_url = 'https://github.com/hconnectdx/ios-bt-sdk'
   
@@ -21,3 +21,6 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '10.0'
   s.source_files = 'HCBle/HCBleClasses/**/*'
 end
+
+# 배포 명령어
+# pod repo push hconnectdx-ios-spec HCBle.podspec --sources='https://github.com/hconnectdx/ios-spec.git' --allow-warnings
