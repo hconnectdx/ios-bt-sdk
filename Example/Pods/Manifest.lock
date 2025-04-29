@@ -1,5 +1,5 @@
 PODS:
-  - HCBle (0.1.7)
+  - HCBle (0.1.8)
 
 DEPENDENCIES:
   - HCBle (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  HCBle: af66874982f1db306dc7e738ef0705ff3a3e12b8
+  HCBle: b83ba13a84942e919a312840c90bc33c5fafbec0
 
 PODFILE CHECKSUM: 5f683e83bef72bffb98fa91569200b6c2ea18efb
 
