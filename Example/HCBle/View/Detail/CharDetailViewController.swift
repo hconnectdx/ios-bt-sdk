@@ -26,7 +26,9 @@ class CharDetailViewController: UIViewController {
     }
 
     @IBAction func onClickWrite(_ sender: UIButton) {
-        print("123")
+        let byteArray = [UInt8]("ECG_RESTART".utf8)
+        let data = Data(byteArray)
+        HCBle.shared.writeData(uuid: uuid, data: data)
     }
 
     @IBAction func onClickRead(_ sender: UIButton) {
