@@ -21,8 +21,11 @@ class CharDetailViewController: UIViewController {
 
         // Do any additional setup after loading the view.
         lblChar.text = characteristic.uuid.uuidString
-        HCBle.shared.setService(uuid: uuid, service: service)
-        HCBle.shared.setChar(uuid: uuid, characteristic: characteristic)
+//        HCBle.shared.setService(uuid: uuid, service: service)
+//        HCBle.shared.setChar(uuid: uuid, characteristic: characteristic)
+
+        HCBle.shared.setTargetService(uuid: uuid, serviceUUID: service.uuid.uuidString)
+        HCBle.shared.setTargetChar(uuid: uuid, characteristicUUID: characteristic.uuid.uuidString)
     }
 
     @IBAction func onClickWrite(_ sender: UIButton) {
