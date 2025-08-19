@@ -2,7 +2,7 @@ Pod::Spec.new do |s|
   # 변수 설정
   token = ENV['GIT_ACCESS_TOKEN']
   name = 'HCBle'
-  version = '1.0.2'
+  version = '1.0.3'
   description = 'This is a ios BLE SDK'
   repo_url = 'https://github.com/hconnectdx/ios-bt-sdk'
   

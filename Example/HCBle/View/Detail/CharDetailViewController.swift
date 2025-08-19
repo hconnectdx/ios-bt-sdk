@@ -25,7 +25,7 @@ class CharDetailViewController: UIViewController {
 //        HCBle.shared.setChar(uuid: uuid, characteristic: characteristic)
 
         HCBle.shared.setTargetService(uuid: uuid, serviceUUID: service.uuid.uuidString)
-        HCBle.shared.setTargetChar(uuid: uuid, characteristicUUID: characteristic.uuid.uuidString)
+        HCBle.shared.setTargetReadChar(uuid: uuid, characteristicUUID: characteristic.uuid.uuidString)
     }
 
     @IBAction func onClickWrite(_ sender: UIButton) {
